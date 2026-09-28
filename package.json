@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/liftport",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lift validation gates for port inputs before they hit prod.",
+  "bin": {
+    "liftport": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/liftport.git"
+  },
+  "homepage": "https://theworker02.github.io/liftport/",
+  "keywords": [
+    "lift",
+    "port",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
